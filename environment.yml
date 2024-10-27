@@ -1,0 +1,9 @@
+name: energy_demand_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pip
+  - pip:
+    - -r /Users/zaninth/energy_demand_prediction/requirements.txt
